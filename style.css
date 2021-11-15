@@ -117,3 +117,30 @@ a:hover {
   padding: 15px;
   box-sizing: border-box;
 }
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 20px;
+  position: relative;
+  background-image: url("istockphoto-1.jpeg");
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  color: white;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  color: white;
+}
+
+.my-list li:nth-child(even) {
+  background: grey;
+}
